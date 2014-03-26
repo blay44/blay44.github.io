@@ -1,0 +1,189 @@
+
+#inner-container{
+	margin-top: 0px;
+	background-color: #f5f5f5;
+	font-family: Palatino;
+
+}
+
+h1{
+
+	margin-top: 0px;
+	margin-bottom: 4px;
+	font-size: 46px;
+	text-transform: uppercase;
+	font-weight: lighter;
+
+}
+
+h2{ 
+	margin-top: 0px;
+	padding-top: 0px;
+	font-weight: lighter;
+	font-size: 20px;
+	font-style: italic;
+}
+
+h3{
+margin-top: 0px;
+	padding-top: 0px;
+	font-weight: lighter;
+	font-size: 18px;
+	font-style: italic;
+}
+
+
+h4{
+	margin-top: 0px;
+	margin-bottom: 3px;
+	padding-top: 0px;
+	font-weight: normal;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+h5{
+	margin-top: 0px;
+	padding-top: 0px;
+	margin-bottom: 5px;
+	font-weight: lighter;
+	font-size: 15px;
+	font-style: italic;
+}
+
+ul{
+	font-size: 14px;
+	padding-left: 16px;
+	line-height: 20px;
+	margin-top: 0px;
+}
+
+#hd{
+	float: left;
+	width: 600px;
+}
+
+#contact-info{
+	float: right;
+}
+
+#contact-info p{
+	text-align: right;
+	margin-bottom:0px;
+	margin-top:12px;
+	font-size: 14px;
+}
+
+#body{
+	margin: 0em auto;
+	width: 740px;
+}
+
+#header{
+	padding-top: 30px;
+	border-bottom: 1px solid #ccc; 
+	height:100px;
+}
+
+#pdf { 
+	font-size: 14px;
+	background: #666; 
+	color: white; 
+	padding: 2px 12px 2px 12px; 
+	text-decoration: none; 
+	border: 2px solid black;
+}
+a#pdf:hover {
+	background: #222;
+}
+
+.block {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #ccc; 
+	overflow: hidden;
+	vertical-align: middle;
+}
+
+.enlarge{
+	font-size: 110%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.first-block{
+	width: 150px;
+	float: left;
+	vertical-align: bottom;
+}
+
+.second-block{
+	float:right;
+	width:550px;
+	margin-bottom:0px;
+	vertical-align: middle;
+}
+
+
+.work-block{
+	margin-bottom:0px;
+
+}
+
+.date p{
+	font-size: 14px;
+	float:right;
+	margin-top: 0px;
+}
+
+.job-title{ 
+	float: left;
+	width:60%;
+
+}
+
+.skillblock{
+	width:33%;
+	float: left;
+}
+
+.skillblock ul{
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+#outer-container{
+	border-bottom: solid #666;
+}
+
+nav ul{
+	margin: 1em auto;
+	text-align: right;
+	width: 740px;
+	margin-bottom: 8px;
+}
+
+nav ul li{
+	display: inline;
+	margin-bottom: 0px;
+}
+nav ul li:after {
+  content: " | ";
+} 
+
+nav ul li a{
+	font-family: Georgia;
+	color: black;
+	text-decoration: none;
+	padding: 1em 2em;
+}
+
+nav ul li a:hover{
+	color: red;
+}
+
+#container{
+	margin-bottom:30px;
+	margin-top:30px;
+	border-bottom: solid #666;
+}
