@@ -1,9 +1,12 @@
-<!DOCTYPE html>
+<!Doctype html>
 <html>
 	<head>
-	 <meta charset="UTF-8">
-	 <title>Test Resume - Brandon Lay</title>
-	 <link rel="stylesheet" href="css/style.css" />
+	 	<meta charset="UTF-8">
+	 	<link rel="stylesheet" href="css/resume.css" />
+	 	<link rel="stylesheet" media="only screen and (max-width: 320px)" href="css/screen.css" />
+    	<link rel="stylesheet" media="print" href="css/print.css" />
+	 	<link href='http://fonts.googleapis.com/css?family=Gilda+Display|Rokkitt' rel='stylesheet' type='text/css'>
+	 	<title>Resume - Brandon Lay</title>
  	</head>
 
  	<body>
@@ -14,17 +17,24 @@
 
 	 				<nav>
 					   <ul>
-					    <li><a href="#work">Experience</a></li>
-					    <li><a href="#edu">Education</a></li>
-					    <li><a href="#tech">Technical</a></li>
+					   	<li id="first-li"><a href="resume.html">Resume</a></li>
+					    <li><a href="background.html">Background</a></li>
+					    <li><a href="experience.html">Experience</a></li>
 					   </ul>
-					 </nav>
+					</nav>
+ 			
+ 				<div id="logo">
+
+ 					<a href="index.html"><img src="img/bl-logo.png" alt="bl-logo" width='200'>
+
+ 				</div>
+
 
  			</div>
 
  			<div id="inner-container">
 
- 				<div id="body">
+ 				<div id="body-container">
 
 	 				<div id="header">
 
@@ -34,9 +44,9 @@
 	 					</div>	
 
 	 					<div id="contact-info">
-	 					 	<a id="pdf" href="resume.pdf">Full PDF Version</a>
+	 					 	<a id="printme" href="javascript:window.print()">Click To Print</a>
 						 	<p>(619) 302-4976</p>
-						 	<p>b.lay@umiami.edu</p>
+						 	<a id="email" href="mailto:blay44@gmail.com" title="Send Me A Message">blay44@gmail.com</a>
 	 					</div>	
 	 				</div>
 
@@ -52,7 +62,7 @@
 
 	 						<div class="second-block">
 		 						<p class="enlarge">
-		 							Valuation advisory analyst with a passion for asset managment, capital management and private equity.
+		 							Valuation advisory analyst with a passion for asset management, capital management and private equity.
 		 						</p>
 	 						</div>
 
@@ -118,8 +128,6 @@
 
 	 						</div>
 
-	 					</div>
-
 	 					<div class="block">
 
 	 						<div id="edu">
@@ -133,7 +141,7 @@
 	 							<div class="edu">
 
 		 							<div class="job-title">
-		 								<h4>University of Miami</h4>
+		 								<h4><a id="Miami-link" href="http://miami.edu/" title="UM Home Page">University of Miami</a></h4>
 		 								<h5>B.B.A: Economics, Finance</h5>
 		 							</div>
 		 							<div class="date">
@@ -192,6 +200,7 @@
 
 						</div>
 
+					</div>
 
  				</div>
 

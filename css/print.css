@@ -1,0 +1,47 @@
+@media print{
+
+#nav, #outer-container {
+	display: none;
+}
+
+#body-container{
+	margin-bottom:0px;
+}
+
+#inner-container{
+	background: #fff;
+}
+
+.block{
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+#container{
+	margin: 0px;
+	border-bottom: none;
+}
+
+#printme{
+	display:none;
+}
+
+#contact-info{
+	margin-top: 30px;
+}
+#inner-container{
+	border-top: none;
+}
+
+#email, h1, h2, h3, h4, h5, p{
+	font-family: Times;
+}
+
+h1{
+	font-size: 44px;
+}
+
+h4{
+	font-weight: lighter;
+}
+}
