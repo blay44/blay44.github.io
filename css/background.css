@@ -95,7 +95,7 @@ p{
 }
 
 
-#main{
+section{
 	margin: 0em auto;
 	max-width: 740px;
 	min-width:645px;
@@ -110,7 +110,7 @@ p{
 }
 
 
-#outer-container{
+header{
 	max-width: 740px;
 	min-width:645px;
 	margin: 0em auto;
@@ -172,7 +172,7 @@ body{
 	margin-bottom: 0px;
 }
 
-.country{
+article{
 	border-top: 1px solid #ccc; 
 	padding-top: 40px;
 	border-bottom: 1px solid #ccc; 
