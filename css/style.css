@@ -68,15 +68,32 @@ footer ul li{
 }
 
 
-#homepicture{
-	float:right;
-	margin-top:0px;
+dl{
+	padding-left:35px;
+	margin-top: 4px;
+}
+
+dt{
+	font-family: "Rokkitt" serif;
+	font-weight: bold;
+	font-size: 22px;
+	padding-top: 5px;
+	padding-bottom: 5px}
+
+dd{
+	font-family: "Rokkitt" serif;
+	font-weight: lighter;
+	font-size: 20px;
+	margin-left: 15px;
+	font-style: italic;
 }
 
 #hometitle{
 	margin-left:10px;
 	margin-top:40px;
 }
+
+
 
 nav{
 	width:415px;
@@ -230,6 +247,26 @@ article{
 	text-align: right;
 }
 
+
+#text-overflow{
+	position: absolute;
+	top:420px;
+	width:490px;
+	padding-left: 5px;
+}
+
+#text-overflow h2{
+	font-family: "Rokkitt" serif;
+	font-size: 40px;
+	color: #940000;
+	padding-top: 20px;
+}
+
+#text-overflow h4{
+	font-family: "Rokkitt" serif;
+	font-style: italic;
+	font-size: 22px;
+}
 
 
 #slider_container_2 { margin: 1em auto; padding: 15px; width: 700px; background: url(../img/bg.png) no-repeat 0 0; }
