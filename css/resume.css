@@ -109,7 +109,7 @@ h1{
 	margin-bottom: 0px;
 	padding-top: 0px;
 	font-weight: lighter;
-	font-family: 'Rokkitt', serif;
+	font-family: 'Gilda', serif;
 	font-size: 60px;
 	font-style: italic;
 	text-shadow: -1px 0 white, 0 3px white, 3px 0 white, 0 -1px white;
@@ -121,7 +121,7 @@ h2{
 	margin-top: 0px;
 	padding-top: 0px;
 	font-weight: lighter;
-	font-family: 'Rokkitt', serif;
+	font-family: 'Gilda', serif;
 	font-size: 28px;
 	font-style: italic;
 	text-shadow: -1px 0 white, 0 2px white, 2px 0 white, 0 -1px white;
@@ -230,4 +230,9 @@ p{
 #logo{
 	margin-right:0px;
 	float:left;
+	width:175px;
+}
+
+#logo img{
+	width:100%;
 }

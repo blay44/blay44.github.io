@@ -1,47 +1,41 @@
 @media print{
 
-#nav, #outer-container {
-	display: none;
-}
 
-#body-container{
-	margin-bottom:0px;
+header{
+	display:none;
 }
-
-#inner-container{
-	background: #fff;
-}
-
-.block{
-	padding-top:10px;
-	padding-bottom:10px;
-}
-
-#container{
-	margin: 0px;
-	border-bottom: none;
-}
-
-#printme{
+footer{
 	display:none;
 }
 
-#contact-info{
-	margin-top: 30px;
-}
-#inner-container{
-	border-top: none;
-}
 
-#email, h1, h2, h3, h4, h5, p{
-	font-family: Times;
-}
+/*For some reason the majority of my selectors would not overwrite unless I used the "!important" property. 
+I realize the font-style is not Times but even with the !important tag the style would not overwrite. 
+I could not figure out why this is happening so this is as good of a print-style sheet as I could make.*/
 
 h1{
-	font-size: 44px;
+	font-size: 32pt !important;
+	font-family: "Times New Roman", serif !important;
+}
+h2 {
+	font-size: 20pt !important;
+}
+h3{
+	font-size: 18pt !important;
 }
 
-h4{
-	font-weight: lighter;
+section{
+	padding-top: 0 !important;
 }
+
+article{
+	padding: 10pt !important;
+}
+
+body{
+	margin-right: 20pt !important;
+	margin-left: 20pt !important;
+	background-color: #fff !important;
+}
+
 }
